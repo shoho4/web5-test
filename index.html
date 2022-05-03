@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="head">
+        <div class="logo">
+          <img
+            src="https://previews.123rf.com/images/tribalium123/tribalium1231209/tribalium123120900266/15412699-%ED%95%AB%EB%8F%84%EA%B7%B8.jpg">
+        </div>
+
+        <nav class="nav">
+          <ul>
+            <li class="navlis">
+              <button class="lang" type="button">한국어</button>
+            </li>
+            <li class="navlis">
+              <button class="lang" type="button">ENG</button>
+            </li>
+            <li class="navlis">
+              <button class="lang" type="button">CHN</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="mainMenu">
+      <div class="tabMenu">
+        <input type="radio" id="maindish" name="tab" checked>
+        <input type="radio" id="side" name="tab">
+        <input type="radio" id="drink" name="tab">
+
+
+        <section class="button">
+          <label for="maindish">메인 메뉴</label>
+          <label for="side">사이드 메뉴</label>
+          <label for="drink">음료수</label>
+        </section>
+
+        <div class="tabdish">
+          <ul>
+            <li class="product">
+              <div>
+                <img src="https://myungranghotdog.com/cmm/fms/getImage.do?atchFileId=FILE_000000000000132GBBTq&fileSn=1" onclick="add()">
+                <p>모짜 핫도그</p>
+              </div>
+            </li>
+
+            <li class="product">
+              <div>
+                <img
+                  src="https://myungranghotdog.com/cmm/fms/getImage.do?atchFileId=FILE_000000000000216xyVBi&fileSn=1">
+                <p>치즈 핫도그</p>
+              </div>
+            </li>
+
+            <li class="product">
+              <div>
+                <img
+                  src="https://myungranghotdog.com/cmm/fms/getImage.do?atchFileId=FILE_0000000000002130rrr3&fileSn=1">
+                <p>점보 핫도그</p>
+              </div>
+            </li>
+
+            <li class="product">
+              <div>
+                <img
+                  src="https://myungranghotdog.com/cmm/fms/getImage.do?atchFileId=FILE_000000000000212LWv4j&fileSn=1">
+                <p>가래떡 핫도그</p>
+              </div>
+            </li>
+
+            <li class="product">
+              <div>
+                <img
+                  src="https://myungranghotdog.com/cmm/fms/getImage.do?atchFileId=FILE_00000000000020975QPv&fileSn=1">
+                <p>체다치즈 핫도그</p>
+              </div>
+            </li>
+
+            <li class="product">
+              <div>
+                <img
+                  src="https://myungranghotdog.com/cmm/fms/getImage.do?atchFileId=FILE_000000000000153r9LGr&fileSn=1">
+                <p>명랑 핫도그</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tabdish">
+          <ul>
+            <li class="product">
+              <div>
+                <img
+                  src="https://myungranghotdog.com/cmm/fms/getImage.do?atchFileId=FILE_0000000000011313QVuA&fileSn=1">
+                <p>치즈볼</p>
+              </div>
+            </li>
+
+            <li class="product">
+              <div>
+                <img
+                  src="https://myungranghotdog.com/cmm/fms/getImage.do?atchFileId=FILE_000000000001132wvf1O&fileSn=1">
+                <p>소떡</p>
+              </div>
+            </li>
+
+            <li class="product">
+              <div>
+                <img
+                  src="https://myungranghotdog.com/cmm/fms/getImage.do?atchFileId=FILE_000000000001133ofmXx&fileSn=1">
+                <p>감자튀김</p>
+              </div>
+            </li>
+
+            <li class="product">
+              <div>
+                <img
+                  src="https://myungranghotdog.com/cmm/fms/getImage.do?atchFileId=FILE_000000000002214Nn841&fileSn=1">
+                <p>어묵바</p>
+              </div>
+            </li>
+
+            <li class="product">
+              <div>
+                <img
+                  src="https://myungranghotdog.com/cmm/fms/getImage.do?atchFileId=FILE_000000000002531tl6Xs&fileSn=1">
+                <p>맛감자</p>
+              </div>
+            </li>
+
+            <li class="product">
+              <div>
+                <img
+                  src="https://myungranghotdog.com/cmm/fms/getImage.do?atchFileId=FILE_000000000002341QvKFT&fileSn=1">
+                <p>핫볶이</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tabdish">
+          <ul>
+            <li class="product">
+              <div>
+                <img
+                  src="https://contents.lotteon.com/itemimage/_v000631/LM/88/01/09/45/93/02/5_/00/1/LM8801094593025_001_1.jpg/dims/optimize/dims/resizemc/360x360">
+                <p>콜라</p>
+              </div>
+            </li>
+
+            <li class="product">
+              <div>
+                <img
+                  src="https://contents.lotteon.com/itemimage/_v070649/LM/88/01/05/60/61/53/1_/00/1/LM8801056061531_001_1.jpg/dims/optimize/dims/resizemc/360x360">
+                <p>사이다</p>
+              </div>
+            </li>
+
+            <li class="product">
+              <div>
+                <img
+                  src="https://contents.lotteon.com/itemimage/_v070814/LM/88/01/05/61/78/07/9_/00/1/LM8801056178079_001_1.jpg/dims/optimize/dims/resizemc/360x360">
+                <p>펩시제로</p>
+              </div>
+            </li>
+
+            <li class="product">
+              <div>
+                <img
+                  src="https://contents.lotteon.com/itemimage/_v031701/LM/88/08/02/40/28/81/7_/00/1/LM8808024028817_001_1.jpg/dims/optimize/dims/resizemc/360x360#">
+                <p>아이스티</p>
+              </div>
+            </li>
+
+            <li class="product">
+              <div>
+                <img
+                  src="https://contents.lotteon.com/itemimage/_v070721/LM/88/01/04/39/00/01/0_/00/1/LM8801043900010_001_1.jpg/dims/optimize/dims/resizemc/360x360">
+                <p>카프리썬</p>
+              </div>
+            </li>
+
+            <li class="product">
+              <div>
+                <img
+                  src="https://contents.lotteon.com/itemimage/_v070719/LM/88/01/04/36/50/63/2_/00/1/LM8801043650632_001_1.jpg/dims/optimize/dims/resizemc/360x360">
+                <p>웰치스</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="result">
+        <button class="order" type="submit">주문하기</button>
+        <button class="orderreset" type="reset">주문취소</button>
+      </div>
+    </div>
+
+    <footer class="ft">
+      <h3>@copyright</h3>
+    </footer>
+  </div>
+</body>
+
+</html>
